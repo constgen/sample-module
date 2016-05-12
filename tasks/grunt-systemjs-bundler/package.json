@@ -1,8 +1,8 @@
 {
-	"name": "gunt-systemjs-packager",
+	"name": "gunt-systemjs-bundler",
 	"version": "0.0.3",
 	"author": {
-		"name": "Genchevsky"
+		"name": "constgen"
 	},
 	"private": true,
 	"dependencies": {

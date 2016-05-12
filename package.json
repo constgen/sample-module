@@ -1,7 +1,7 @@
 {
 	"name": "sample-module",
 	"private": true,
-	"description": "Sample of the module template",
+	"description": "A project sample for a JavaScript module",
 	"version": "0.1.0",
 	"license": "MIT",
 	"author": "constgen",

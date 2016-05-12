@@ -1,2 +1,2 @@
 # sample-module
-Sample project for JavaScript module
+A project sample for a JavaScript module
