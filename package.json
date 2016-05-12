@@ -1,0 +1,45 @@
+{
+	"name": "sample-module",
+	"private": true,
+	"description": "Sample of the module template",
+	"version": "0.1.0",
+	"license": "MIT",
+	"author": "constgen",
+	"main": "src/index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/constgen/sample-module.git"
+	},
+	"keywords": [
+		"sample",
+		"module",
+		"project template"
+	],
+	"dependencies": {
+		
+	},
+	"devDependencies": {
+		"grunt": "1.0.1",
+		"grunt-jsdoc": "1.0.0",
+		"grunt-contrib-jshint": "1.0.0",
+		"grunt-contrib-watch": "1.0.0",
+		"grunt-contrib-jasmine": "1.0.3",
+		"grunt-contrib-clean": "^0.6.0",
+		"jasmine-core": "2.2.0",
+		"systemjs-builder": "0.15.15",
+		"systemjs-plugin-json": "0.1.0",
+		"bower-traceur": "git://github.com/jmcriffey/bower-traceur"
+	},
+	"scripts": {
+		"start": "node src/index.js",
+		"test": "grunt test",
+		"build": "grunt build",
+		"live": "grunt live",
+		"code": "grunt code",
+		"prepublish": "grunt test & grunt build"
+	},
+	"engines" : { 
+		"node" : ">=0.10.0",
+		"npm" : "*" 
+	}
+}
